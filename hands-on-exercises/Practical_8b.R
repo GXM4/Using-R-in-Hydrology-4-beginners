@@ -13,7 +13,7 @@ library(scales)
 
 # ----- tiff fayllarni o'qish va ma'lumotlarni tayyorlash -----------------------
 
-tifpath  <- "C:/Users/jt231697/Desktop/hands_on_exercise/Practical_8/GPM_IMERG_20220420"
+tifpath  <- "C:/User/Data/GPM_IMERG_20220420" # Ushbu qator foydalanuvchi tomonidan tahrirlanadi
 tif_files <- list.files(tifpath, pattern = "\\.tif$", full.names = TRUE)
 tif_files <- sort(tif_files)
 r <- rast(tif_files)
@@ -80,5 +80,6 @@ p_hourly <- ggplot(df_long, aes(x = x, y = y, fill = precip)) +
 
 # ----- Natijani fayl ko'rinishida saqlash -------------------------------------
 
-ggsave("C:/Users/jt231697/Desktop/hands_on_exercise/Practical_8/Figure_8b.png",
+ggsave("C:/User/Figures/Figure_8b.png",  # Ushbu qator foydalanuvchi tomonidan tahrirlanadi
        p_hourly, width = 12, height = 8, dpi = 350)
+
