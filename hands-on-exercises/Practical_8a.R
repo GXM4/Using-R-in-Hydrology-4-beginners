@@ -10,7 +10,7 @@ library(fields)
 
 # ----- tiff fayllarni o'qish va ma'lumotlarni tayyorlash ----------------------
 
-tifpath  <- "C:/Users/jt231697/Desktop/hands_on_exercise/Practical_8/GPM_IMERG_20220420"
+tifpath  <- "C:/User/Data/GPM_IMERG_20220420" # Ushbu qator foydalanuvchi tomonidan tahrirlanadi
 tif_files <- list.files(tifpath, pattern = "\\.tif$", full.names = TRUE)
 tif_files <- sort(tif_files)
 r <- rast(tif_files)
@@ -49,7 +49,7 @@ pax_opts <- list(
 
 # ----- Visualisatsiya va natijani fayl ko'rinishda saqlash --------------------
 
-png("C:/Users/jt231697/Desktop/hands_on_exercise/Practical_8/Figure_8a.png", 
+png("C:/User/Figures/Figure_8a.png", # Ushbu qator foydalanuvchi tomonidan tahrirlanadi
     width = 3200, height = 2000, res = 350)  # HD size + resolution
 
 plot(total_24h,
@@ -60,5 +60,6 @@ plot(total_24h,
      legend = TRUE,
      plg    = plg_opts,
      pax    = pax_opts)
+
 
 dev.off()
