@@ -13,7 +13,7 @@
 #  Suv sathining kompleks garfigini chizish / Composite graph of water level   #
 # ---------------------------------------------------------------------------- #
 
-# Readme in Uzbek
+# Readme in Uzbek    R 4.5.0
 # Ma'lumot uchun ushbu 1-amaliy mashg'ulotda suv sathining kompleks grafigini 
 # R dasturlash tilida chizish usuli bosqichma-bosqich ko'rsatilgan. Buyruqlarni
 # yurguzish to'g'ri amalga oshirilganda olingan natija Figure_1a.png da ko'rsatilgan
@@ -55,6 +55,7 @@ axis(1,
      labels = c(seq(1, 360, by = 30), 365),
      cex.axis = 0.9)  # pastki o‘q (kunlar)
 axis(2, col.axis = "azure4", col = "azure4", col.ticks = "azure4" )  # chapdan 1-o'q, yog'in
+mtext("Kunlar", side = 1, line = 3, cex = 1)      #  X o'qini  nomlash
 box()
 
 # ------ 3.2. Suv sathi (chap o‘qda, qizil chiziq) -----------------------------
@@ -93,7 +94,7 @@ mtext("H (cm)", side = 3, at = usr[1] - 0.05 * diff(usr[1:2]), col = "red", las 
 mtext("T (°C)", side = 3, at = usr[1] + 1.05 * diff(usr[1:2]), col = "springgreen", las = 1, cex = 0.9)
 mtext("Q (m³/s)", side = 3, at = usr[2], adj = 1, col = "blue", las = 1, cex = 0.9)
 
-legend("topleft",
+legend("topright",
        legend = c("H (suv sathi)", "Q (suv sarfi)", "T (harorat)",  "X (yog'in)"),
        bty = "n",
        col = c("red", "blue", "springgreen2", "azure4"),
@@ -102,3 +103,4 @@ legend("topleft",
 # ------ 5. Grafikni png faylda saqlash uchun buyruqni yakunlash ---------------
 
 dev.off()
+
