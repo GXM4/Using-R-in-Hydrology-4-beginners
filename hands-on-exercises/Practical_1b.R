@@ -13,7 +13,7 @@
 #  Suv sathining kompleks garfigini chizish / Composite graph of water level   #
 # ---------------------------------------------------------------------------- #
 
-# Readme in Uzbek
+# Readme in Uzbek     R 4.5.0
 # Ma'lumot uchun ushbu 1b-amaliy mashg'ulotda suv sathining kompleks grafigini 
 # ustun va qatorlardan iborat 2 x 2 panel ko'rinishida R dasturlash tilida chizish
 # usuli ko'rsatilgan. Buyruqlarni yurguzish to'g'ri amalga oshirilganda olingan 
@@ -39,7 +39,7 @@ par(mfrow = c(2,2))   # 2 ustun va 2 qatorli panel
 
 # ------ 4.1. Yog‘ingarchilik (joylashuv 1x1 chapdan 1-qator, 1-ustun) ---------
 
-plot(file$H, type='l', col="red", xlab="kun", ylab="Suv sathi, H (m)")  #chizma chizish uchun shunday qilib buyruq beriladi.
+plot(file$H, type='l', col="red", xlab="kun", ylab="Suv sathi, H (m)")  #chizma chizish uchun buyruq berish.
 points(file$H, col="blue")
 title("Suv sathining yil ichida tebranish grafigi")
 
@@ -65,3 +65,4 @@ title("Suv sarfining yil ichida tebranish grafigi")
 # ------ 5. Grafikni png faylda saqlash uchun buyruqni yakunlash ---------------
 
 dev.off()     
+
