@@ -64,5 +64,4 @@ title("Suv sarfining yil ichida tebranish grafigi")
 
 # ------ 5. Grafikni png faylda saqlash uchun buyruqni yakunlash ---------------
 
-dev.off()     
-
+dev.off() 
