@@ -1,3 +1,19 @@
+# ==============================================================================
+#
+#   ###  G I D R O L O G I Y A D A   R   D A N   F O Y D A L A N I S H  ###
+#   ###             U S I N G   R   I N    H Y D R O L O G Y            ###
+#   ###                         Version 1.0                             ###  
+#        
+#       Mualliflar / Authors: ZULFIYA Kuranboyeva & GAVKHAR Mamadjanova
+#                       
+# ==============================================================================
+#
+# ---------------------------------------------------------------------------- #
+#                       8a-amaliy mashg'ulot / Practical 8a                    #
+#                 GPM IMERG yog'ingrachilik ma'lumotlarini ishlash             #
+#                      Analysing GPM IMERG precipitation data                  #
+# ---------------------------------------------------------------------------- #
+
 # in Uzbek
 # Ma'lumot uchun yog'ingarchilik bo'yicha GPM IMERG (https://gpm.nasa.gov/data/imerg) 
 # sun'iy yo'ldoshidan O'zbekiston bo'ylab 20/04/2022 sanasida olingan soatlik 
@@ -60,6 +76,5 @@ plot(total_24h,
      legend = TRUE,
      plg    = plg_opts,
      pax    = pax_opts)
-
 
 dev.off()
