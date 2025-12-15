@@ -10,7 +10,7 @@
 #
 # ---------------------------------------------------------------------------- #
 #                       2-amaliy mashg'ulot / Practical 2                      #
-#  Suv sathining kompleks garfigini chizish / Composite graph of water level   #
+#  Ionlarning yil ichida taqsimlanish grafigi / Annual distribution of ions    #
 # ---------------------------------------------------------------------------- #
 
 # Readme in Uzbek   R 4.5.0
@@ -138,4 +138,5 @@ legend(
 # ------ 5. Grafikni png faylda saqlash uchun buyruqni yakunlash ---------------
 
 dev.off()
+
 
