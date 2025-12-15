@@ -36,7 +36,7 @@ NaK  <- c(7, 7.5, 9, 17, 30, 4, 7, 5, 1, 9, 5, 9)
  
 # ------ 2. Grafikni png faylda saqlash uchun joyni ko'rsatish -----------------
 
-png("C:/Users/hands_on_exercise/Practical_2/Figure_2.png",
+png("C:/Users/Figures/Figure_2.png",
     width = 8, height = 12, units = "in", res = 300)
 
 # ------ 3. Tashqi bo‘sh joylar va ustun-qatorlarni ko'rsatish -----------------
@@ -138,3 +138,4 @@ legend(
 # ------ 5. Grafikni png faylda saqlash uchun buyruqni yakunlash ---------------
 
 dev.off()
+
