@@ -13,7 +13,7 @@
 #  Ionlarning yil ichida taqsimlanish grafigi / Annual distribution of ions    #
 # ---------------------------------------------------------------------------- #
 
-# Readme in Uzbek   R 4.5.0
+# Code description in Uzbek   R 4.5.0
 # 2-amaliy mashg'ulotda ionlarning yil ichida taqsimlanishi va suv sarfi bilan 
 # minerallashuv grafiklarini 1 x 2 panel ko'rinishida  R dasturlash tilida chizish
 # usuli ko'rsatilgan. Buyruqlarni yurguzish to'g'ri amalga oshirilganda olingan 
@@ -138,5 +138,6 @@ legend(
 # ------ 5. Grafikni png faylda saqlash uchun buyruqni yakunlash ---------------
 
 dev.off()
+
 
 
