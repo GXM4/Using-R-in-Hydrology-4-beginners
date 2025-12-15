@@ -13,12 +13,11 @@
 #  Suv sathining kompleks garfigini chizish / Composite graph of water level   #
 # ---------------------------------------------------------------------------- #
 
-# Readme in Uzbek    R 4.5.0
+# Code description in Uzbek    R 4.5.0
 # Ma'lumot uchun ushbu 1-amaliy mashg'ulotda suv sathining kompleks grafigini 
 # R dasturlash tilida chizish usuli bosqichma-bosqich ko'rsatilgan. Buyruqlarni
 # yurguzish to'g'ri amalga oshirilganda olingan natija Figure_1a.png da ko'rsatilgan
 # grafik ko'rinishida bo'ladi.  
-
 
 # ----- 1. Ma'lumotlarni o'qish va qisqa nomlar berish -------------------------
 
@@ -103,5 +102,3 @@ legend("topright",
 # ------ 5. Grafikni png faylda saqlash uchun buyruqni yakunlash ---------------
 
 dev.off()
-
-
