@@ -5,7 +5,6 @@
 #   ###                         Version 1.2.0                           ###  
 #        
 #       Mualliflar / Authors: ZULFIYA Kuranboyeva & GAVKHAR Mamadjanova
-#                       
 # ==============================================================================
 #
 # ---------------------------------------------------------------------------- #
@@ -44,7 +43,7 @@ png("C:/Users/Figures/Figure_2.png",
 par(oma = c(2, 2, 2, 2))
 par(mfrow = c(2,1))   # 1 ustun va 2 qatorli panel
 
-length(Oylar)  # 12 ta qiymat - oylarni tekshirish
+length(months)  # 12 ta qiymat - oylarni tekshirish
 length(Ca)      # 12 ta qiymat ekanligini tekshirish
 
 # ------ 4. Ionlarni grafigini ketma-ketlikda chizish --------------------------
@@ -138,6 +137,3 @@ legend(
 # ------ 5. Grafikni png faylda saqlash uchun buyruqni yakunlash ---------------
 
 dev.off()
-
-
-
