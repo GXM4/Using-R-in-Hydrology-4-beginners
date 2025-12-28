@@ -27,9 +27,7 @@ summary(file3)
 # ------ 2. 3b-grafikni png faylda saqlash uchun joyni ko'rsatish --------------
 
 png("C:/Users/Figures/Figure_3b.png",
-    width = 10, height = 10, units = "in", res = 300)
-
-par(oma = c(2, 2, 2, 2)) # grafik atrofidagi bo‘sh joylarni ko'rsatish
+    width = 6, height = 6, units = "in", res = 300)
 
 # ------ 3. To'g'ri chiziqli bog'lanish tenglamasi ------------------------------
 
@@ -42,7 +40,7 @@ plot(
   file3$Kokjerdi, file3$Koykerim,
   col = "red",
   pch = 16,
-  cex = 2,
+  cex = 1.5,
   xlim = c(200, 600),
   ylim = c(100, 550),
   xlab = "Kokjerdi, H (cm)",
