@@ -58,6 +58,4 @@ legend(
   legend = paste("Adjusted R² =", round(summary(model)$adj.r.squared, 3))
 )
 
-# ------ 6. Grafikni png faylda saqlash uchun buyruqni yakunlash ---------------
-
 dev.off()
