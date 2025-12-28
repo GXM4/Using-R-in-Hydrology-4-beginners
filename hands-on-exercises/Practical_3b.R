@@ -21,12 +21,12 @@
 
 # ----- 1. Ma'lumotlarni o'qish va tez qarab chiqish  --------------------------
 
-file3 <- read.csv("C:/Users/jt231697/Desktop/hands_on_exercise/Practical_3/monthly_peaks_and_lows.csv", header = TRUE)
+file3 <- read.csv("C:/Users/Data/monthly_peaks_and_lows.csv", header = TRUE)
 summary(file3)
 
 # ------ 2. 3b-grafikni png faylda saqlash uchun joyni ko'rsatish --------------
 
-png("C:/Users/jt231697/Desktop/hands_on_exercise/Practical_3/Figure_3b.png",
+png("C:/Users/Figures/Figure_3b.png",
     width = 10, height = 10, units = "in", res = 300)
 
 par(oma = c(2, 2, 2, 2)) # grafik atrofidagi bo‘sh joylarni ko'rsatish
