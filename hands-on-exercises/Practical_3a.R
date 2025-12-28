@@ -23,11 +23,11 @@
 
 # ----- 1. Ma'lumotlarni o'qish, sana va qisqa nomlar berish -------------------
 
-file1<-read.csv("C:/Users/jt231697/Desktop/hands_on_exercise/Practical_3/norin_kokjerdi.csv")
+file1<-read.csv("C:/Users/Data/norin_kokjerdi.csv")
 colnames(file1) 
 summary(file1)
 
-file2<-read.csv("C:/Users/jt231697/Desktop/hands_on_exercise/Practical_3/norin_koykerim.csv")
+file2<-read.csv("C:/Users/Data/norin_koykerim.csv")
 colnames(file2)
 summary(file2)
 
@@ -40,7 +40,7 @@ y2 <- file2$H
 
 # ------ 2. 3a-grafikni png faylda saqlash uchun joyni ko'rsatish --------------
 
-png("C:/Users/jt231697/Desktop/hands_on_exercise/Practical_3/Figure_3a.png",
+png("C:/Users/Figures/Figure_3a.png",
     width = 12, height = 8, units = "in", res = 300)
 
 par(oma = c(2, 2, 2, 2)) # grafik atrofidagi bo‘sh joylarni ko'rsatish
@@ -164,7 +164,7 @@ peaks_lows <- peaks_lows[order(peaks_lows$date), ]
 # 5.4. Qiymatlarni CSV faylda saqlash
 write.csv(
   peaks_lows,
-  "C:/Users/jt231697/Desktop/hands_on_exercise/Practical_3/monthly_peaks_and_lows.csv",
+  "C:/Users/Data/monthly_peaks_and_lows.csv",
   row.names = FALSE
 )
 
