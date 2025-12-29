@@ -79,6 +79,8 @@ legend(
   bty    = "n"
 )
 
+title("Kundalik suv sathining yil ichida tebranishi va moslashgan suv sathlari", cex = 1) # umumiy sarlavha
+
 # ------ 4. Ma'lumotlarni tayyorlash -------------------------------------------
 
 file1_sub <- file1[, c("date", "H")]
@@ -257,4 +259,5 @@ write.csv(
 )
 
 dev.off()
+
 
