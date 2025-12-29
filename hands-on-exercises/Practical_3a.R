@@ -23,11 +23,11 @@
 
 # ----- 1. Ma'lumotlarni o'qish, sana va qisqa nomlar berish -------------------
 
-file1 <- read.csv("C:/Users/norin_kokjerdi.csv")
+file1 <- read.csv("C:/Users/Data/norin_kokjerdi.csv")
 colnames(file1)
 summary(file1)
 
-file2 <- read.csv("C:/Users/norin_kyokerim.csv")
+file2 <- read.csv("C:/Users/Data/norin_kyokerim.csv")
 colnames(file2)
 summary(file2)
 
@@ -41,7 +41,7 @@ x  <- seq_along(y1)
 
 # ------ 2. Grafik sozlamalari -------------------------------------------------
 
-png("C:/Users/Figure_3a.png",
+png("C:/Users/Figures/Figure_3a.png",
     width = 12, height = 8, units = "in", res = 300)
 
 par(oma = c(2, 2, 2, 2)) # grafik atrofidagi bo‘sh joylarni ko'rsatish
@@ -252,8 +252,9 @@ names(peaks_lows_out) <- c(
 # 8.4. Faylni csv formatda saqlash
 write.csv(
   peaks_lows_out,
-  "C:/Users/monthly_peaks_and_lows_paired.csv",
+  "C:/Users/Data/monthly_peaks_and_lows_paired.csv",
   row.names = FALSE
 )
 
 dev.off()
+
