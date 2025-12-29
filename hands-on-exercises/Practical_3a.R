@@ -8,7 +8,7 @@
 # ==============================================================================
 #
 # ---------------------------------------------------------------------------- #
-#                       3a-amaliy mashg'ulot / Practical 3a                     #
+#                       3a-amaliy mashg'ulot / Practical 3a                    #
 #                 Moslashgan suv sathlari grafigini chizish                    #
 #                  Plotting the adjusted water level graph                     #
 # ---------------------------------------------------------------------------- #
@@ -23,11 +23,11 @@
 
 # ----- 1. Ma'lumotlarni o'qish, sana va qisqa nomlar berish -------------------
 
-file1 <- read.csv("C:/Users/jt231697/Desktop/hands_on_exercise/Practical_3/norin_kokjerdi.csv")
+file1 <- read.csv("C:/Users/norin_kokjerdi.csv")
 colnames(file1)
 summary(file1)
 
-file2 <- read.csv("C:/Users/jt231697/Desktop/hands_on_exercise/Practical_3/norin_kyokerim.csv")
+file2 <- read.csv("C:/Users/norin_kyokerim.csv")
 colnames(file2)
 summary(file2)
 
@@ -41,7 +41,7 @@ x  <- seq_along(y1)
 
 # ------ 2. Grafik sozlamalari -------------------------------------------------
 
-png("C:/Users/jt231697/Desktop/hands_on_exercise/Practical_3/Figure_3a.png",
+png("C:/Users/Figure_3a.png",
     width = 12, height = 8, units = "in", res = 300)
 
 par(oma = c(2, 2, 2, 2)) # grafik atrofidagi bo‘sh joylarni ko'rsatish
@@ -221,7 +221,6 @@ legend(
 # ------ 8. Natijalarni faylga saqlash -----------------------------------------
 
 # 8.1. Fayl uchun tegishli ma'lumotlarni analiz qilish
-
 top_monthly$type <- "Peak"
 low_monthly$type <- "Low"
 
@@ -229,7 +228,6 @@ peaks_lows <- rbind(top_monthly, low_monthly)
 peaks_lows <- peaks_lows[order(peaks_lows$date), ]
 
 # 8.2. Fayl uchun kerakli ma'lumotlarni tanlab olish
-
 peaks_lows_out <- peaks_lows[, c(
   "date",
   "Kokjerdi",
@@ -241,7 +239,6 @@ peaks_lows_out <- peaks_lows[, c(
 )]
 
 # 8.3. Ustunlarni nomlash
-
 names(peaks_lows_out) <- c(
   "date",
   "Kokjerdi",
@@ -253,10 +250,9 @@ names(peaks_lows_out) <- c(
 )
 
 # 8.4. Faylni csv formatda saqlash
-
 write.csv(
   peaks_lows_out,
-  "C:/Users/jt231697/Desktop/hands_on_exercise/Practical_3/monthly_peaks_and_lows_paired.csv",
+  "C:/Users/monthly_peaks_and_lows_paired.csv",
   row.names = FALSE
 )
 
