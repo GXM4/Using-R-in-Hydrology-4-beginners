@@ -20,11 +20,13 @@
 
 # ----- 1. Ma'lumotlarni oddiy usulda kiritish ---------------------------------
 
+# 1.1. Oylar, Q va U bo'yicha ma'lumotlar
+
 months <- 1:12
 Q <- c(2.1, 2.7, 3.2, 19.8, 17.1, 12.5, 8.9, 4.8, 6.4, 2.8, 6.3, 3) # suv sarfi
 U <- c(192.7, 208.2, 216.6, 245.7, 314.3, 93.7, 121.9, 142.2, 225, 218.1, 223.4, 232.9) # minerallashuv
 
-# ------  Ionlar bo'yicha ma'lumotlarni kiritish -------------------------------
+# 1.2. Ionlar bo'yicha ma'lumotlar
 
 Ca   <- c(34.1, 38.1, 34.1, 34.1, 44.1, 16, 20, 25.1, 40.1, 32.1, 40.1, 36.1)
 Mg   <- c(8.49, 8.5, 10.92, 12.75, 9.72, 3.67, 3.67, 5.44, 12.15, 12.14, 9.72, 12.14)
@@ -134,6 +136,6 @@ legend(
   bty = "n",
 )
 
-# ------ 5. Grafikni png faylda saqlash uchun buyruqni yakunlash ---------------
+# ------ 6. Grafikni png faylda saqlash uchun buyruqni yakunlash ---------------
 
 dev.off()
