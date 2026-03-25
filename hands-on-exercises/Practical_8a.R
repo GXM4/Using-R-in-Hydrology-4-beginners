@@ -1,11 +1,8 @@
 # ==============================================================================
-#
 #   ###  G I D R O L O G I Y A D A   R   D A N   F O Y D A L A N I S H  ###
 #   ###             U S I N G   R   I N    H Y D R O L O G Y            ###
 #   ###                         Version 1.2.0                           ###  
-#        
-#       Mualliflar / Authors: ZULFIYA Kuranboyeva & GAVKHAR Mamadjanova
-#                       
+#       Mualliflar / Authors: ZULFIYA Kuranboyeva & GAVKHAR Mamadjanova                      
 # ==============================================================================
 #
 # ---------------------------------------------------------------------------- #
@@ -15,7 +12,7 @@
 # ---------------------------------------------------------------------------- #
 
 # in Uzbek
-# Ma'lumot uchun yog'ingarchilik bo'yicha GPM IMERG (https://gpm.nasa.gov/data/imerg) 
+# Ma'lumot uchun yog'ingarchilik bo'yicha GPM IMERG V6 (https://gpm.nasa.gov/data/imerg) 
 # sun'iy yo'ldoshidan O'zbekiston bo'ylab 20/04/2022 sanasida olingan soatlik 
 # yo'gin miqdorlari asosida yog'ingarchilikning kunlik umumiy qiymatini hisoblash 
 # va vizualizatsiya qilish R dasturlash tilida ko'rsatilgan.
@@ -78,4 +75,3 @@ plot(total_24h,
      pax    = pax_opts)
 
 dev.off()
-
