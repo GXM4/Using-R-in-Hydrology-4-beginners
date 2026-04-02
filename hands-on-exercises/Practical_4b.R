@@ -1,15 +1,13 @@
-# ══════════════════════════════════════════════════════════════════════════
-# ZERAFSHAN BASIN — METHOD 2: ISOHYETAL
+# ZERAFSHAN BASIN — METHOD 2: ADR ISOHYETAL
 # Code author: G Mamadjanova 
-# ══════════════════════════════════════════════════════════════════════════
-
+#
 # ----------------------------------------------------------------------------- #
 #                       4b-amaliy mashg'ulot / Practical 4b                     #
 # Daryo havzasiga yoqqan yog'in qatlamini izogietlar usuli bilan hisoblash     #
 #     Calculate the average depth of rainfall (ADR) over the catchment using    #
 #                             isohyetal method                                  #
 # ----------------------------------------------------------------------------- #
-
+#
 # Code description in Uzbek |  R version >4.5.0
 # 4b-amaliy mashg'ulotda Zarafshon daryosi havzasiga yoqqan yog'in qatlamini 
 # izogietlar usuli bilan hisoblash ko'rstailgan. Meteostansiyalarda yil 
@@ -30,10 +28,10 @@ lapply(pkgs, library, character.only = TRUE)
 sf_use_s2(FALSE)
 
 # ----- 2. Fayllar joylashuvi --------------------------------------------------
-path_gpkg     <- "C:/Users/jt231697/Downloads/hands_on_exercise/Practical_4/GitHUB/Data/basin/zerafshan_uzbekistan_HydroBASIN.gpkg"
-path_stations <- "C:/Users/jt231697/Downloads/hands_on_exercise/Practical_4/GitHUB/Data/zerafshan_stations.csv"
-path_rivers   <- "C:/Users/jt231697/Downloads/hands_on_exercise/Practical_4/GitHUB/Data/rivers/zerafshan_uzbekistan_HydroRIVERS.gpkg"
-path_out      <- "C:/Users/jt231697/Downloads/hands_on_exercise/Practical_4/GitHUB/Output_files/"
+path_gpkg     <- "C:/Users/Data/basin/zerafshan_uzbekistan_HydroBASIN.gpkg"
+path_stations <- "C:/Users/Data/zerafshan_stations.csv"
+path_rivers   <- "C:/Users/Data/rivers/zerafshan_uzbekistan_HydroRIVERS.gpkg"
+path_out      <- "C:/Users/Output_files/"
 
 # ----- 3. Ma'lumotlarni yuklash -----------------------------------------------
 
