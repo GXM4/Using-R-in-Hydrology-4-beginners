@@ -2,7 +2,7 @@
 #
 # ----------------------------------------------------------------------------- #
 #                       8b-amaliy mashg'ulot / Practical 8b                     #
-#     GPM IMERG sun'iy yo'ldosh ma'lumotlari bilan ishlash: Yog'ingarchilik
+#             GPM IMERG soatlik yog'ingarchilik ma'lumotlari bilan ishlash
 #                   GPM IMERG hourly precipitation data visualisation
 # ----------------------------------------------------------------------------- #
 # Code description in Uzbek |  R version >4.5.0
