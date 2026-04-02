@@ -1,15 +1,13 @@
-# ══════════════════════════════════════════════════════════════════════════════
-# ZERAFSHAN BASIN — METHOD 1: ARITHMETIC MEAN
+# ZERAFSHAN BASIN — METHOD 1: ADR ARITHMETIC MEAN
 # Code author: G Mamadjanova 
-# ══════════════════════════════════════════════════════════════════════════════
-
+#
 # ----------------------------------------------------------------------------- #
 #                       4a-amaliy mashg'ulot / Practical 4a                     #
 # Daryo havzasiga yoqqan yog'in qatlamini o'rtacha arifmetik usul bilan hisoblash
 #     Calculate the average depth of rainfall (ADR) over the catchment using
 #                             arithmetic mean method                            #
 # ----------------------------------------------------------------------------- #
-
+#
 # Code description in Uzbek |  R version >4.5.0
 # 4a-amaliy mashg'ulotda Zarafshon daroyosi havzasiga yoqqan yo'g'in qatlamini 
 # o'rtacha arifmetik usul bilan hisoblash ko'rstailgan. Meteostansiyalarda yil 
@@ -29,10 +27,10 @@ sf_use_s2(FALSE)
 
 # ----- 2. Fayllar joylashuvi --------------------------------------------------
 
-path_gpkg     <- "C:/Users/jt231697/Downloads/hands_on_exercise/Practical_4/GitHUB/Data/basin/zerafshan_uzbekistan_HydroBASIN.gpkg"
-path_stations <- "C:/Users/jt231697/Downloads/hands_on_exercise/Practical_4/GitHUB/Data/zerafshan_stations.csv"
-path_rivers   <- "C:/Users/jt231697/Downloads/hands_on_exercise/Practical_4/GitHUB/Data/rivers/zerafshan_uzbekistan_HydroRIVERS.gpkg"
-path_out      <- "C:/Users/jt231697/Downloads/hands_on_exercise/Practical_4/GitHUB/Output_files/"
+path_gpkg     <- "C:/Users/Data/basin/zerafshan_uzbekistan_HydroBASIN.gpkg"
+path_stations <- "C:/Users/Data/zerafshan_stations.csv"
+path_rivers   <- "C:/Users/Data/rivers/zerafshan_uzbekistan_HydroRIVERS.gpkg"
+path_out      <- "C:/Users/Output_files/"
 
 # ----- 3. Ma'lumotlarni yuklash -----------------------------------------------
 
@@ -168,7 +166,8 @@ p1 <- ggplot() +
                "Irmoqlar"        = "#4292c6",
                "Havza maydoni"   = "coral2"),
     name   = "Belgilar",
-  #  Chiziqli belgilarni ko'rsatish
+  
+  # Chiziqli belgilarni ko'rsatish
     guide  = guide_legend(
       override.aes = list(
         linewidth = c(1.0, 0.8, 1.0), 
@@ -176,7 +175,6 @@ p1 <- ggplot() +
       )
     )
   ) +
-  
   scale_linewidth_manual(
     values = c("Asosiy daryo"    = 1.0,
                "Irmoqlar"        = 0.45,
