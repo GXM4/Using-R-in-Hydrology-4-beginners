@@ -1,0 +1,2 @@
+"Method","N_stations_all","N_stations_inside","ADR_mm","Basin_area_km2","Volume_km3","Notes"
+"Arithmetic Mean",15,5,258.1,30545,7.8836,"Equal weight; inside-basin stations only"
