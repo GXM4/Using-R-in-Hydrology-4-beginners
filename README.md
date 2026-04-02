@@ -1,39 +1,23 @@
-**GIDROLOGIYADA R DAN FOYDALANISH**  **|** **USING R IN HYDROLOGY 4 beginners&intermediate**
-> Version 1.2.0
-> **Mualliflar | Authors: ZULFIYA Kuranboyeva & GAVKHAR Mamadjanova**
->
-> R Version > 4.5.0
->
->
->
-1-amaliy mashg'ulot | Practical 1
+# Gidrologiyada R dan foydalanish | Using R in Hydrology
 
-Suv sathining kompleks garfigini chizish | Composite graph of water level
+> **For beginners & intermediate users**
 
-1b-amaliy mashg'ulot | Practical 1b
+![Version](https://img.shields.io/badge/Version-1.2.0-blue)
+![R Version](https://img.shields.io/badge/R-%3E%204.5.0-276DC3?logo=r)
 
-Suv sathining kompleks garfigini chizish | Composite graph of water levels
+**Authors | Mualliflar:** Zulfiya Kuranboyeva & Gavkhar Mamadjanova
 
-2-amaliy mashg'ulot | Practical 2
+---
 
-Ionlarning yil ichida taqsimlanish grafigi | Annual distribution of ions
+## Practicals | Amaliy mashg'ulotlar
 
-3a-amaliy mashg'ulot | Practical 3a
-
-Moslashgan suv sathlari grafigini chizish | Plotting the adjusted water level graph
-
-3b-amaliy mashg'ulot | Practical 3b
-
-Moslashgan suv sathlari orasidagi bog'lanishni aniqlash | Linear relationship between adjusted water level
-
-4a-amaliy mashg'ulot | Practical 4a
-
-Daryo havzasiga yoqqan yog'in qatlamini o'rtacha arifmetik usul bilan hisoblash
-Calculate the average depth of rainfall (ADR) over the catchment using arithmetic mean method
-
-4b-amaliy mashg'ulot | Practical 4b
-
-Daryo havzasiga yoqqan yog'in qatlamini izogietlar usuli bilan hisoblash
-Calculate the average depth of rainfall (ADR) over the catchment using isohyetal method
-
+| # | Uzbek | English |
+|---|-------|---------|
+| **Practical 1**  | Suv sathining kompleks grafigini chizish | Composite graph of water level |
+| **Practical 1b** | Suv sathining kompleks grafigini panellarda chizish | Composite graph of water levels - panel plot |
+| **Practical 2**  | Ionlarning yil ichida taqsimlanish grafigi | Annual distribution of ions |
+| **Practical 3a** | Moslashgan suv sathlari grafigini chizish | Plotting the adjusted water level graph |
+| **Practical 3b** | Moslashgan suv sathlari orasidagi bog'lanishni aniqlash | Linear relationship between adjusted water levels |
+| **Practical 4a** | Daryo havzasiga yoqqan yog'in qatlamini o'rtacha arifmetik usul bilan hisoblash | Calculate average depth of rainfall (ADR) using arithmetic mean method |
+| **Practical 4b** | Daryo havzasiga yoqqan yog'in qatlamini izogietlar usuli bilan hisoblash | Calculate average depth of rainfall (ADR) using isohyetal method |
 
