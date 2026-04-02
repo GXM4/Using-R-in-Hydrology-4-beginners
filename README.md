@@ -1,7 +1,11 @@
 # Gidrologiyada R dan foydalanish | Using R in Hydrology
 
-> **For beginners & intermediate users**
-
+![Audience](https://img.shields.io/badge/Audience-Beginners%20%26%20Intermediate-green)
+![Purpose](https://img.shields.io/badge/Purpose-Educational-orange)
+```
+A hands-on introduction to R for hydrology students and practitioners
+An educational resource for learning R in the context of hydrological analysis
+```
 ![Version](https://img.shields.io/badge/Version-1.2.0-blue)
 ![R Version](https://img.shields.io/badge/R-%3E%204.5.0-276DC3?logo=r)
 ![License](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey)
@@ -100,13 +104,3 @@
 </table>
 
 
-
-
-
-## License | Litsenziya
-
-This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
-
-[![CC BY 4.0](https://licensebuttons.net/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)
-
-> You are free to share and adapt this material for any purpose, provided appropriate credit is given to the authors.
