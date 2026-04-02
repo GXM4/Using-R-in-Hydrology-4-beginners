@@ -1,12 +1,12 @@
-# Mualliflar / Code authors: ZULFIYA Kuranboyeva & GAVKHAR Mamadjanova    
-#
+#     Mualliflar / Code authors: ZULFIYA Kuranboyeva & GAVKHAR Mamadjanova     #  
+#                                                                              #
 # ---------------------------------------------------------------------------- #
 #                     3a-amaliy mashg'ulot / Practical 3a                      #
 #                 Moslashgan suv sathlari grafigini chizish                    #
 #                  Plotting the adjusted water level graph                     #
 # ---------------------------------------------------------------------------- #
 #
-# Readme in Uzbek   R 4.5.0
+# Code description in Uzbek |  R version >4.5.0
 # 3a-amaliy mashg'ulotning 1-qismida Norin daryosi Kokjerdi va Koykerim gidropostlarida
 # kuzatilgan suv sathlari grafigi chiziladi. Gidropostlarda yil davomida kuzatilgan 
 # suv sathlarining minimum va maksimum qiymatlari har bir oy uchun ajratib olish va 
