@@ -1,14 +1,11 @@
-
-GIDROLOGIYADA R DAN FOYDALANISH
-
-USING  R  IN  HYDROLOGY
-
-Version 1.2.0
-
-R Version > 4.5.0
-
-Mualliflar | Authors: ZULFIYA Kuranboyeva & GAVKHAR Mamadjanova
-
+**GIDROLOGIYADA R DAN FOYDALANISH**  **|** **USING R IN HYDROLOGY 4 beginners&intermediate**
+> Version 1.2.0
+> **Mualliflar | Authors: ZULFIYA Kuranboyeva & GAVKHAR Mamadjanova**
+>
+> R Version > 4.5.0
+>
+>
+>
 1-amaliy mashg'ulot | Practical 1
 
 Suv sathining kompleks garfigini chizish | Composite graph of water level
@@ -38,3 +35,5 @@ Calculate the average depth of rainfall (ADR) over the catchment using arithmeti
 
 Daryo havzasiga yoqqan yog'in qatlamini izogietlar usuli bilan hisoblash
 Calculate the average depth of rainfall (ADR) over the catchment using isohyetal method
+
+
