@@ -1,17 +1,12 @@
-# ==============================================================================
-#   ###  G I D R O L O G I Y A D A   R   D A N   F O Y D A L A N I S H  ###
-#   ###             U S I N G   R   I N    H Y D R O L O G Y            ###
-#   ###                         Version 1.2.0                           ###  
-#      Mualliflar / Authors: ZULFIYA Kuranboyeva & GAVKHAR Mamadjanova
-# ==============================================================================
-#
+#     Mualliflar / Code authors: ZULFIYA Kuranboyeva & GAVKHAR Mamadjanova     #
+#                                                                              #
 # ---------------------------------------------------------------------------- #
 #                       3b-amaliy mashg'ulot / Practical 3b                    #
 #               Moslashgan suv sathlari orasidagi bog'lanishni aniqlash        #  
 #                 Linear relationship between adjusted water level             #
 # ---------------------------------------------------------------------------- #
-
-# Readme in Uzbek   R 4.5.0
+#
+# Code description in Uzbek |  R version >4.5.0
 # 3b-amaliy mashg'ulotda Norin daryosi Kokjerdi va Kyokerim gidropostlaridan tanlab
 # olingan suv sathlari orasidagi to'g'ri chiziqli bog'lanishni aniqlash usuli ko'rsatilgan. 
 # Buyruqlarni yurguzish to'g'ri amalga oshirilganda olingan natijalar Figure_3b.png
