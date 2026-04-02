@@ -1,5 +1,12 @@
-# in Uzbek
-# Ma'lumot uchun yog'ingarchilik bo'yicha GPM IMERG (https://gpm.nasa.gov/data/imerg) 
+# Code author: G Mamadjanova 
+#
+# ----------------------------------------------------------------------------- #
+#                       8b-amaliy mashg'ulot / Practical 8b                     #
+#     GPM IMERG sun'iy yo'ldosh ma'lumotlari bilan ishlash: Yog'ingarchilik
+#                   GPM IMERG hourly precipitation data visualisation
+# ----------------------------------------------------------------------------- #
+# Code description in Uzbek |  R version >4.5.0
+# Ma'lumot uchun yog'ingarchilik bo'yicha GPM IMERGV6 (https://gpm.nasa.gov/data/imerg) 
 # sun'iy yo'ldoshidan O'zbekiston bo'ylab 20/04/2022 sanasida olingan soatlik 
 # yo'gin miqdorlarini R dasturlash tilida ggplot2 yordamida vizualizatsiya qilish
 # usuli ko'rsatilgan.
@@ -13,7 +20,7 @@ library(scales)
 
 # ----- tiff fayllarni o'qish va ma'lumotlarni tayyorlash -----------------------
 
-tifpath  <- "C:/User/Data/GPM_IMERG_20220420" # Ushbu qator foydalanuvchi tomonidan tahrirlanadi
+tifpath  <- "C:/Users/Data/GPM_IMERG_20220420" # Ushbu qator foydalanuvchi tomonidan tahrirlanadi
 tif_files <- list.files(tifpath, pattern = "\\.tif$", full.names = TRUE)
 tif_files <- sort(tif_files)
 r <- rast(tif_files)
@@ -80,6 +87,5 @@ p_hourly <- ggplot(df_long, aes(x = x, y = y, fill = precip)) +
 
 # ----- Natijani fayl ko'rinishida saqlash -------------------------------------
 
-ggsave("C:/User/Figures/Figure_8b.png",  # Ushbu qator foydalanuvchi tomonidan tahrirlanadi
+ggsave("C:/Users/Figures/Figure_8b.png",  # Ushbu qator foydalanuvchi tomonidan tahrirlanadi
        p_hourly, width = 12, height = 8, dpi = 350)
-
