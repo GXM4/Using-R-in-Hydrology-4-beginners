@@ -1,10 +1,5 @@
-# ==============================================================================
-#   ###  G I D R O L O G I Y A D A   R   D A N   F O Y D A L A N I S H  ###
-#   ###             U S I N G   R   I N    H Y D R O L O G Y            ###
-#   ###                         Version 1.2.0                           ###          
-#       Mualliflar / Authors: ZULFIYA Kuranboyeva & GAVKHAR Mamadjanova                   
-# ==============================================================================
-#
+# Code authors: ZULFIYA Kuranboyeva & GAVKHAR Mamadjanova                   
+# 
 # ---------------------------------------------------------------------------- #
 #                       1-amaliy mashg'ulot / Practical 1                      #
 #  Suv sathining kompleks garfigini chizish / Composite graph of water level   #
@@ -15,7 +10,7 @@
 # R dasturlash tilida chizish usuli bosqichma-bosqich ko'rsatilgan. Buyruqlarni
 # yurguzish to'g'ri amalga oshirilganda olingan natija Figure_1a.png da ko'rsatilgan
 # grafik ko'rinishida bo'ladi.  
-
+#
 # ----- 1. Ma'lumotlarni o'qish va qisqa nomlar berish -------------------------
 
 file <- read.csv("C:/User/Data/UGAM_river.csv")
