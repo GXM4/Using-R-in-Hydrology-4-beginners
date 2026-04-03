@@ -43,8 +43,8 @@ An educational resource for learning R in the context of hydrological analysis
     </tr>
     <tr>
       <td><strong>Practical 1b</strong></td>
-      <td>Suv sathining kompleks grafigini chizish</td>
-      <td>Composite graph of water levels</td>
+      <td>Suv sathining kompleks grafigini chizish (Panel plot)</td>
+      <td>Composite graph of water levels (Panel plot)</td>
     </tr>
     <tr>
       <td><strong>Practical 2</strong></td>
