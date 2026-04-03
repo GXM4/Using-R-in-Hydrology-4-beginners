@@ -8,7 +8,7 @@ An educational resource for learning R in the context of hydrological analysis
 ```
 ![Version](https://img.shields.io/badge/Version-1.2.0-blue)
 ![R Version](https://img.shields.io/badge/R-%3E%204.5.0-276DC3?logo=r)
-![License](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey)
+
 
 **Authors | Mualliflar:** Zulfiya Kuranboyeva & Gavkhar Mamadjanova
 
