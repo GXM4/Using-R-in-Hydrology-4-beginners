@@ -73,13 +73,13 @@ An educational resource for learning R in the context of hydrological analysis
     </tr>
     <tr>
       <td><strong>Practical 5a</strong></td>
-      <td>Suv sathining kompleks grafigini chizish</td>
-      <td>Composite graph of water levels</td>
+      <td>Y=a+b*x ko'rinishidagi tenglamaning noma'lum parametrlarini 3 usul bilan aniqlash</td>
+      <td>Estimation of the unknown parameters of the hydrological relationship in Y=a+b*x using three methods</td>
     </tr>
     <tr>
       <td><strong>Practical 5b</strong></td>
-      <td>Suv sathining kompleks grafigini chizish</td>
-      <td>Composite graph of water levels</td>
+      <td>Y=a*x^b ko'rinishidagi tenglamaning noma'lum parametrlarini 2 usul bilan aniqlash</td>
+      <td>Estimation of the unknown parameters of the hydrological relationship in Y=a*x^b using two methods</td>
     </tr>
     <tr>
       <td><strong>Practical 6</strong></td>
