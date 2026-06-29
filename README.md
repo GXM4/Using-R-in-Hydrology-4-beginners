@@ -11,11 +11,9 @@ An educational resource for learning R in the context of hydrological analysis
 
 
 **Authors | Mualliflar:** Zulfiya Kuranboyeva & Gavkhar Mamadjanova
-
 ---
 ![Composite water level plot](Figures/Figure_4b.png)
-*Output from Practical 4b Average depth of rainfall (ADR) over the catchment (Isohyetal method) *
-
+Output from Practical 4b Average depth of rainfall (ADR) over the catchment (Isohyetal method)
 ## Repository Structure | Papkalar tuzilmasi
 
 | Folder | Description |
@@ -75,22 +73,38 @@ An educational resource for learning R in the context of hydrological analysis
     </tr>
     <tr>
       <td><strong>Practical 5a</strong></td>
-      <td>Y=a+b*x ko'rinishidagi tenglamaning noma'lum parametrlarini 3 usul bilan aniqlash</td>
-      <td>Estimation of the unknown parameters of the hydrological relationship in Y=a+b*x using three methods</td>
+      <td>$Y=a+b*x$ ko'rinishidagi tenglamaning noma'lum parametrlarini 3 usul bilan aniqlash</td>
+      <td>Estimation of the unknown parameters of the hydrological relationship in $Y=a+b*x$ using three methods</td>
     </tr>
     <tr>
       <td><strong>Practical 5b</strong></td>
-      <td>Y=a*x^b ko'rinishidagi tenglamaning noma'lum parametrlarini 2 usul bilan aniqlash</td>
-      <td>Estimation of the unknown parameters of the hydrological relationship in Y=a*x^b using two methods</td>
+      <td>$Y = a x^{b}$ ko'rinishidagi tenglamaning noma'lum parametrlarini 2 usul bilan aniqlash</td>
+      <td>Estimation of the unknown parameters of the hydrological relationship in $Y = a x^{b}$ using two methods</td>
     </tr>
     <tr>
       <td><strong>Practical 6</strong></td>
       <td>Suv sathining kompleks grafigini chizish</td>
       <td>Composite graph of water levels</td>
-      <tr>
-      <td><strong>Practical 7</strong></td>
-      <td>Suv sathining kompleks grafigini chizish</td>
-      <td>Composite graph of water levels</td>
+    </tr>
+    <tr>     
+      <td><strong>Practical 7a</strong></td>
+      <td>CRU gridlangan yog'in ma'lumotlarini tasvirlash</td>
+      <td>Visualisation of CRU gridded precipitation data</td>
+    </tr>
+    <tr>
+      <td><strong>Practical 7b</strong></td>
+      <td>SCRU gridlangan havo harorati ma'lumotlarini tasvirlash</td>
+      <td>Visualisation of CRU gridded temperatura data</td>
+    </tr>
+    <tr>
+      <td><strong>Practical 7c</strong></td>
+      <td>Toshkent shahri uchun yog'in va harorat vaqt qatorini chizish</td>
+      <td>Tashkent Precipitation & Temperature Timeseries retrieved from CRU data</td>
+    </tr>
+    <tr>
+      <td><strong>Practical 7d</strong></td>
+      <td>O'zbekiston bo'yicha mavsumiy o'rtacha harorat kartalari</td>
+      <td>easonal Mean Temperature Maps for Uzbekistan</td>
     </tr>
     <tr>
       <td><strong>Practical 8a</strong></td>
