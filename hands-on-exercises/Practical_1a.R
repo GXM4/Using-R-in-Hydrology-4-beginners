@@ -1,5 +1,4 @@
-# Code authors: ZULFIYA Kuranboyeva & GAVKHAR Mamadjanova                   
-# 
+# Authors: ZULFIYA Kuranboyeva & GAVKHAR Mamadjanova                   
 # ---------------------------------------------------------------------------- #
 #                       1-amaliy mashg'ulot / Practical 1                      #
 #  Suv sathining kompleks garfigini chizish / Composite graph of water level   #
