@@ -5,7 +5,7 @@
 #     Estimation of the unknown parameters of the hydrological relationship 
 #                           Y=a+b*x using three different methods
 # ----------------------------------------------------------------------------- #
-#
+# Code description in Uzbek |  R version >4.5.0
 # Ushbu amaliy mashg'ulotda berilgan o'zgaruvchilar:
 # t - havo xarorati (°C) va h - suv yuzasidan bug'lanish qatlami (mm)
 # Tenglama quyidagi holatga keltiriladi:
