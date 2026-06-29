@@ -13,9 +13,8 @@ An educational resource for learning R in the context of hydrological analysis
 **Authors | Mualliflar:** Zulfiya Kuranboyeva & Gavkhar Mamadjanova
 
 ---
-
-![Composite water level plot](Figures/Figure_4a.png)
-*Output from Practical 4b — *
+![Composite water level plot](Figures/Figure_4b.png)
+*Output from Practical 4b Average depth of rainfall (ADR) over the catchment (Isohyetal method) *
 
 ## Repository Structure | Papkalar tuzilmasi
 
