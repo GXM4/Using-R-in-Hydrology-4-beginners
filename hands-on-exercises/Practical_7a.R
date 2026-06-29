@@ -1,4 +1,4 @@
-# Code authors: ZULFIYA Kuranboyeva & GAVKHAR Mamadjanova
+# Authors: ZULFIYA Kuranboyeva & GAVKHAR Mamadjanova
 # ----------------------------------------------------------------------------- #
 #                       7a-amaliy mashg'ulot / Practical 7a                     #
 #                CRU gridlangan yog'in ma'lumotlarini tasvirlash                #
