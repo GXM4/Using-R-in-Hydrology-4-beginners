@@ -73,8 +73,8 @@ Output from Practical 4b Average depth of rainfall (ADR) over the catchment (Iso
     </tr>
     <tr>
       <td><strong>Practical 5a</strong></td>
-      <td>$Y=a+b*x$ ko'rinishidagi tenglamaning noma'lum parametrlarini 3 usul bilan aniqlash</td>
-      <td>Estimation of the unknown parameters of the hydrological relationship in $Y=a+b*x$ using three methods</td>
+      <td>$Y = a + b x$ ko'rinishidagi tenglamaning noma'lum parametrlarini 3 usul bilan aniqlash</td>
+      <td>Estimation of the unknown parameters of the hydrological relationship in $Y = a + b x$ using three methods</td>
     </tr>
     <tr>
       <td><strong>Practical 5b</strong></td>
@@ -83,8 +83,8 @@ Output from Practical 4b Average depth of rainfall (ADR) over the catchment (Iso
     </tr>
     <tr>
       <td><strong>Practical 6</strong></td>
-      <td>Suv sathining kompleks grafigini chizish</td>
-      <td>Composite graph of water levels</td>
+      <td>Ekstremal hodisalarning takrorlanish davrini hisoblash</td>
+      <td>Calculation of return period of extreme events</td>
     </tr>
     <tr>     
       <td><strong>Practical 7a</strong></td>
@@ -104,7 +104,7 @@ Output from Practical 4b Average depth of rainfall (ADR) over the catchment (Iso
     <tr>
       <td><strong>Practical 7d</strong></td>
       <td>O'zbekiston bo'yicha mavsumiy o'rtacha harorat kartalari</td>
-      <td>easonal Mean Temperature Maps for Uzbekistan</td>
+      <td>Seasonal Mean Temperature Maps for Uzbekistan</td>
     </tr>
     <tr>
       <td><strong>Practical 8a</strong></td>
