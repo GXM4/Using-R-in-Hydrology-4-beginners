@@ -1,11 +1,9 @@
-#Authors: GAVKHAR Mamadjanova & ZULFIYA Kuranboyeva 
+# Authors: GAVKHAR Mamadjanova & ZULFIYA Kuranboyeva 
 #----------------------------------------------------------------------------- #
 #                       5a-amaliy mashg'ulot / Practical 5a                     #
 # Y=a+b*x ko'rinishidagi tenglamaning noma'lum parametrlarini 3 usul bilan aniqlash
 #     Estimation of the unknown parameters of the hydrological relationship 
 #                           Y=a+b*x using three different methods
-# 
-# Authors: GAVKHAR Mamadjanova & ZULFIYA Kuranboyeva
 # ----------------------------------------------------------------------------- #
 #
 # Ushbu amaliy mashg'ulotda berilgan o'zgaruvchilar:
