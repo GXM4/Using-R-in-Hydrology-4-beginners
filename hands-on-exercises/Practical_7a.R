@@ -27,7 +27,7 @@ lapply(pkgs, library, character.only = TRUE)
 precip_cols <- colorRampPalette(brewer.pal(9, "YlGnBu"))(100)
 
 # ---- 1. Grafiklarni saqlash uchun direktoriy----------------------------------
-out_dir <- "C:/Users/Data/Figures/" #ushbu qator foydalanuvchi tomonidan tahrirlanadi
+out_dir <- "C:/Users/Figures/" #ushbu qator foydalanuvchi tomonidan tahrirlanadi
 
 # ---- 2. NetCDF faylni o'qish -------------------------------------------------
 cru_precip <- nc_open("C:/Users/Data/CRU_total_precipitation_mon_0.5x0.5_global_2019_v4.03.nc") 
