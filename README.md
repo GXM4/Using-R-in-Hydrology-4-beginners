@@ -14,7 +14,7 @@ An educational resource for learning R in the context of hydrological analysis
 ---
 ![Composite water level plot](Figures/Figure_4b.png)
 Output from Practical 4b Average depth of rainfall (ADR) over the catchment (Isohyetal method)
-## Repository Structure | Papkalar tuzilmasi
+## Papkalar tuzilmasi | Repository Structure
 
 | Folder | Description |
 |--------|-------------|
@@ -25,7 +25,7 @@ Output from Practical 4b Average depth of rainfall (ADR) over the catchment (Iso
 
 ---
 
-## Practicals | Amaliy mashg'ulotlar
+## Amaliy mashg'ulotlar | Practicals 
 
 <table>
   <thead>
@@ -118,5 +118,3 @@ Output from Practical 4b Average depth of rainfall (ADR) over the catchment (Iso
     </tr>
   </tbody>
 </table>
-
-
