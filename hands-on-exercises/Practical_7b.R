@@ -26,20 +26,17 @@ library(RColorBrewer)
 library(scales)
 library(maps)
 
-
 # ---- Shared colour palette ---------------------------------------------------
 # RdBu REVERSED: blue = cold, red = warm — standard temperature convention.
 # rev() makes blue the low end and red the high end.
 temp_cols <- colorRampPalette(rev(brewer.pal(11, "RdBu")))(100)
 
-
 # ---- 1. Output path ----------------------------------------------------------
-out_dir <- "C:/Users/jt231697/Downloads/CRU/"
+out_dir <- "C:/Users/Figures/"
 
 # ---- 2. Open NetCDF file -----------------------------------------------------
 # Adjust filename to match your downloaded CRU temperature file
-nc_tmp <- nc_open(paste0("C:/Users/jt231697/Downloads/CRU/CRU/",
-                         "CRU_mean_temperature_mon_0.5x0.5_global_2019_v4.03.nc"))
+nc_tmp <- nc_open(paste0("C:/Users/Data/CRU_mean_temperature_mon_0.5x0.5_global_2019_v4.03.nc"))
 print(nc_tmp)
 dname <- "tas"   # CRU faylda o'rtacha haroratning qisqacha nomlanishi
 
@@ -89,7 +86,6 @@ cat("Valid cells in month 1:", n_valid, "\n")
 # Select January 2019 slice
 m         <- 1
 tmp_slice <- tmp_array[, , m]
-
 
 # ---- 4. Global temperature map — levelplot -----------------------------------
 png(paste0(out_dir, "Figure_7b_1.png"),
