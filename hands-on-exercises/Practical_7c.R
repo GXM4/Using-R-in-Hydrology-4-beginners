@@ -1,3 +1,4 @@
+#Code authors: GAVKHAR Mamadjanova & ZULFIYA Kuranboyeva 
 # ----------------------------------------------------------------------------- #
 #                       7c-amaliy mashg'ulot / Practical 7c                     #
 #         Toshkent shahri uchun yog'in va harorat vaqt qatorini chizish         #
