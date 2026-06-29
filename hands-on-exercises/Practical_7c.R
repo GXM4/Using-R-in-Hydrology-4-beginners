@@ -1,8 +1,8 @@
-#Code authors: GAVKHAR Mamadjanova & ZULFIYA Kuranboyeva 
+# Authors: GAVKHAR Mamadjanova & ZULFIYA Kuranboyeva 
 # ----------------------------------------------------------------------------- #
 #                       7c-amaliy mashg'ulot / Practical 7c                     #
 #         Toshkent shahri uchun yog'in va harorat vaqt qatorini chizish         #
-#           Tashkent Precipitation & Temperature Timeseries                     #
+#     Tashkent Precipitation & Temperature Timeseries retrieved from CRU data   #
 # ----------------------------------------------------------------------------- #
 # Code description in Uzbek | R version >= 4.1.0
 # Ushbu amaliy mashg'ulotda NETCDF fayldan Toshkent shahri uchun ajratib
