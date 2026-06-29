@@ -13,6 +13,10 @@ An educational resource for learning R in the context of hydrological analysis
 **Authors | Mualliflar:** Zulfiya Kuranboyeva & Gavkhar Mamadjanova
 
 ---
+## Sample Output
+
+![Composite water level plot](Figures/water_level_plot.png)
+*Output from Practical 1a — composite water level visualization*
 
 ## Repository Structure | Papkalar tuzilmasi
 
