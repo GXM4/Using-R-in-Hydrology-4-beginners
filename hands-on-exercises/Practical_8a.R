@@ -1,5 +1,4 @@
 # Code author: G Mamadjanova 
-#
 # ---------------------------------------------------------------------------- #
 #                       8a-amaliy mashg'ulot / Practical 8a                    #
 #                 GPM IMERG yog'ingrachilik ma'lumotlarini bilan ishlash       #
