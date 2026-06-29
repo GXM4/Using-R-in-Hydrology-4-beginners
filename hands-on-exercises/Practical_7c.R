@@ -19,8 +19,8 @@ install.packages(setdiff(pkgs, rownames(installed.packages())),
 lapply(pkgs, library, character.only = TRUE)
 
 # ---- 1. Fayllarni o'qish va grafikni joylashtirish ---------------------------
-cru_dir  <- "C:/Users/jt231697/Downloads/CRU/CRU/"
-out_dir  <- "C:/Users/jt231697/Downloads/CRU/"
+cru_dir  <- "C:/Users/Data/"
+out_dir  <- "C:/Users/Figures/"
 
 pr_file  <- paste0(cru_dir,
                    "CRU_total_precipitation_mon_0.5x0.5_global_2019_v4.03.nc")
@@ -39,7 +39,6 @@ pr_array[pr_array == fv_pr] <- NA
 origin_str <- unlist(strsplit(tunits$value, " "))[3]
 dates      <- as.Date(time_pr, origin = origin_str)
 nc_close(nc_pr)
-
 
 # ---- 3. Harorat bo'yicha ma'lumotni o'qish -----------------------------------
 nc_tmp    <- nc_open(tmp_file)
@@ -67,7 +66,6 @@ cat("Harorat to'r katagi: lon =", lon_tmp[tmp_lon_idx],
 tash_pr  <- as.numeric(pr_array[ pr_lon_idx,  pr_lat_idx,  ])
 tash_tmp <- as.numeric(tmp_array[tmp_lon_idx, tmp_lat_idx, ])
 
-
 # ---- 5. Ma'lumotlar jadvalini tuzish -----------------------------------------
 tash_df <- data.frame(
   month_num = 1:12,
@@ -80,7 +78,6 @@ cat("2019 oylik yog'in (mm) :", round(tash_pr,  1), "\n")
 cat("2019 oylik harorat (C) :", round(tash_tmp, 1), "\n")
 cat("Yillik yog'in jami     :", round(sum(tash_pr,  na.rm = TRUE), 1), "mm\n")
 cat("Yillik o'rtacha harorat:", round(mean(tash_tmp, na.rm = TRUE), 1), "C\n")
-
 
 # ---- 6. Ikki Y o'qli grafik uchun shkalani hisoblash -------------------------
 # ASOSIY (chap)     o'q : Harorat  — tmp_min dan tmp_max gacha (°C)
