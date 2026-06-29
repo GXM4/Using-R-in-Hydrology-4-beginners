@@ -1,4 +1,4 @@
-# Code authors: ZULFIYA Kuranboyeva & GAVKHAR Mamadjanova   
+# Authors: ZULFIYA Kuranboyeva & GAVKHAR Mamadjanova   
 #
 # ---------------------------------------------------------------------------- #
 #                       2-amaliy mashg'ulot / Practical 2                      #
