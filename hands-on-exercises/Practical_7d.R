@@ -1,5 +1,6 @@
+#  Authors: GAVKHAR Mamadjanova & ZULFIYA Kuranboyeva
 # ----------------------------------------------------------------------------- #
-#                       7d-amaliy mashg'ulot / Practical 7d                      #
+#                       7d-amaliy mashg'ulot / Practical 7d                     #
 #          O'zbekiston bo'yicha mavsumiy o'rtacha harorat kartalari             #
 #          Seasonal Mean Temperature Maps for Uzbekistan (2019)                 #
 # ----------------------------------------------------------------------------- #
@@ -23,10 +24,9 @@ install.packages(setdiff(pkgs, rownames(installed.packages())),
                  dependencies = TRUE)
 lapply(pkgs, library, character.only = TRUE)
 
-
 # ---- 1. Yo'llar --------------------------------------------------------------
-out_dir  <- "C:/Users/jt231697/Downloads/CRU/"
-tmp_file <- paste0("C:/Users/jt231697/Downloads/CRU/CRU/",
+out_dir  <- "C:/Users/Figures/"
+tmp_file <- paste0("C:/Users/Data/",
                    "CRU_mean_temperature_mon_0.5x0.5_global_2019_v4.03.nc")
 
 # ---- 2. NetCDF faylini o'qish ------------------------------------------------
