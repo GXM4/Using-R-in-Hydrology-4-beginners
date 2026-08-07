@@ -20,9 +20,9 @@
 
 # ----- 1. Ma'lumotlarni o'qish va tez qarab chiqish  --------------------------
 
-file3 <- read.csv("C:/User/Data/UGAM_river.csv",
-#ushbu qator foydalanuvchi tomonidan tahrirlanadi 
-        header = TRUE
+file3 <- read.csv(
+  "D:/Rprog/amaliy_mashg'ulotlar/Data/monthly_peaks_and_lows_paired.csv",
+  header = TRUE
 )
 summary(file3)
 
